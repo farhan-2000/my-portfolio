@@ -80,6 +80,33 @@ body{
 #goals{
   background: lightsalmon;
 }
+.development-area{
+  display: flex;
+  background: gray;
+  padding: 15px;
+  margin: 40px 20px;
+  border-radius: 15px;
+}
+.development-pic{
+  width: 600px;
+}
+.development-pic img{
+  height: 400px;
+  border-radius: 20px;
+  border: 3px solid aqua;
+  margin-left: 30px;
+}
+.development-journey{
+  width: 600px;
+  margin-left: 80px;
+  margin-right: 200px;
+}
+.development-journey span{
+  color: orange;
+}
+.development-journey h1{
+  font-size: 40px;
+}
 footer{
   background: black;
   color: white;
@@ -91,4 +118,7 @@ footer h1{
 footer p{
   text-align: center;
   color: gray;
+}
+footer span{
+  color: #f04f43;
 }
