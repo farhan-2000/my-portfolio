@@ -29,6 +29,7 @@ body{
 }
 .first-pic{
   width: 50%;
+  margin-top: 20px;
 }
 .first-pic img{
   margin-left: 100px;
