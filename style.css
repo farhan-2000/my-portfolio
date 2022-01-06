@@ -38,9 +38,9 @@ body{
 }
 .button{
   color: blanchedalmond;
-  background-color: #f04f43;
+  background-color: red;
   padding: 15px 40px;
-  border-radius: 5px;
+  border-radius: 10px;
   text-decoration: none;
   margin-top: 20px;
   font-weight: 200;
@@ -95,6 +95,8 @@ body{
   border-radius: 20px;
   border: 3px solid aqua;
   margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .development-journey{
   width: 600px;
@@ -106,6 +108,31 @@ body{
 }
 .development-journey h1{
   font-size: 40px;
+}
+.other-skill{
+  display: flex;
+  background-color: orange;
+  color: white;
+  margin: 30px;
+  border-radius: 25px;
+}
+.other-skill-item{
+  margin: 30px;
+  width: 500px;
+}
+.other-skill-item h1{
+  font-size: 40px;
+}
+.other-skill-item span{
+  color: black;
+}
+.other-skill-pic{
+  margin-left: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.other-skill-pic img{
+  height: 300px;
 }
 footer{
   background: black;
