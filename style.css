@@ -134,13 +134,46 @@ body{
 .other-skill-pic img{
   height: 300px;
 }
-footer{
+.about{
+  display: flex;
+  margin: 30px;
+  background-color: skyblue;
+  padding: 20px;
+  border-radius: 20px;
+}
+.about-pic{
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 400px;
+}
+.about-pic img{
+  height: 300px;
+  border-radius: 20px;
+}
+.about-me{
+  margin-left: 300px;
+  margin-top: 15px;
+}
+.about-me h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+.about-me span{
+  color: darkblue;
+}
+.footer-tag{
   background: black;
-  color: white;
-  margin-bottom: 0;
+}
+.footer-item{
+  height: 100%;
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 footer h1{
   text-align: center;
+  color: white;
 }
 footer p{
   text-align: center;
